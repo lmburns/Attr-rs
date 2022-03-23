@@ -1,5 +1,4 @@
-#[macro_use]
-extern crate attr_rs;
+use attr_rs::attr_accessor;
 
 #[attr_accessor(name, age)]
 struct Cat {
